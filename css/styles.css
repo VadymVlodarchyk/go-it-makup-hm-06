@@ -1035,7 +1035,7 @@ margin-right: 24px;
     }
     .values-item{
         width: calc((100% - 24px) / 2);
-       
+
     }
     .values-item-text{
         font-weight: 500;
@@ -1094,6 +1094,9 @@ margin-right: 24px;
 .footer-block{
     display: flex;
     flex-wrap: wrap;
+}
+.footer-soc-title{
+    justify-content: left;
 }
 
 .footer-text{
@@ -1206,7 +1209,6 @@ margin-right: 24px;
 
 /* .our-team-item:not(:last-child) {
     margin-right: 24px;
-   
 } */
 
  /* -------------------our-portfolio-------------- */
