@@ -181,28 +181,45 @@ a  {
 .hero {
     
     background-color: #2E2F42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), 
+    url(../images/Dark-bg-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    max-width: 1440px;
+    background-size: cover; 
     margin: 0 auto;
+    max-width: 320px;
+
+    
 
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: 
+            linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-mob-2x.jpg);
+    }
+}
+
+
 .hero-title {
-    text-align: center;
+    text-align:center;
     color: white;
-    font-size: 56px;
+    font-size: 36px;
     font-family: Roboto;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    max-width: 496px;
-    margin: 0 auto;
-    margin-bottom: 48px;
+    max-width: 288px;
+
+    /* margin: 0 auto; */
+    margin-bottom: 72px;
 }
 
 .oder-servise-btn {
@@ -1019,6 +1036,46 @@ margin-right: 24px;
         padding-left: 16px;
         padding-right: 16px;
     }
+    
+
+.hero {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-tab-1x.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg-tab-2x.jpg);
+    }
+}
+.hero-title {
+
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 36px;
+
+}
+
+
+
+
+
+
+
+
     .values {
         padding-top: 96px;
         padding-bottom:96px;
@@ -1166,6 +1223,46 @@ margin-right: 24px;
         padding-left: 15px;
         padding-right: 15px;
     }
+.hero {
+
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-2x-desk.jpg);
+    }
+}
+.hero-title{
+    
+    font-size: 56px;
+    margin-bottom: 48px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
         .values{
         padding-top: 120px;
         padding-bottom: 120px;
