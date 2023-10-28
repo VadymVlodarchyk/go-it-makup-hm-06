@@ -272,8 +272,8 @@ margin-right: 24px;
 }
 
 .values-icon{
-    display: flex;
-    align-items: center;
+    display: none;
+    /* align-items: center;
     justify-content: center;
     background-color: #F4F4FD;
     width: 264px;
@@ -281,7 +281,7 @@ margin-right: 24px;
     border: 1px;
     border-radius: 4px;
     color:#8E8F99 ;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
 }
 
 .values-icon-place{
@@ -471,7 +471,7 @@ margin-right: 24px;
     
 }
 .port-pict{
-    
+
 }
 
 
@@ -1087,7 +1087,11 @@ margin-right: 24px;
     }
     .values-list {
         gap:72px 24px;
-    }     
+    } 
+    .values-icon {
+        display: none;
+        
+    }
     .values-subtitle {
         font-size: 36px;
         font-weight: 700;
@@ -1097,7 +1101,6 @@ margin-right: 24px;
     }
     .values-item{
         width: calc((100% - 24px) / 2);
-
     }
     .values-item-text{
         font-weight: 500;
@@ -1268,27 +1271,44 @@ margin-right: 24px;
 
 
 
-        .values{
-        padding-top: 120px;
-        padding-bottom: 120px;
-            }
+.values{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-    .values-list {
-        gap: 24px;
-        }
+.values-list {
+    gap: 24px;
+}
 
-    .values-list-container :not(:last-child) {
-        margin-right: 24px;
-    }   
-    .values-subtitle {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }  
-    .values-item-text {
-        font-weight: 400;
-    }
+.values-list-container :not(:last-child) {
+    margin-right: 24px;
+}
+.values-icon {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border: 1px;
+    border-radius: 4px;
+    color: #8E8F99;
+    margin-bottom: 8px;
+}
+.values-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.values-item {
+    width: calc((100% - 24px * 3) / 4);
+}
+
+.values-item-text {
+    font-weight: 400;
+}
 /* -------------------our-team--------------- */
 .our-team {
     padding-top: 120px;
