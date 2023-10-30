@@ -48,11 +48,7 @@ a  {
 
 
 /* =========================HEDER========================*/
-.header {
-    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+
 
 .header-container {
     display: flex;
@@ -1412,6 +1408,9 @@ margin-right: 24px;
         padding-right: 16px;
     }
     
+    .is-open {
+        display: none;
+    }
 
 .hero {
     padding-top: 112px;
@@ -1623,6 +1622,13 @@ margin-right: 24px;
         padding-left: 15px;
         padding-right: 15px;
     }
+
+.header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
